@@ -1,0 +1,10 @@
+input {
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 50vw;
+    height: 3vh;
+}
+
+input::before {
+    content: " | ";
+}
